@@ -1,0 +1,41 @@
+body{
+    background-color: red;
+    margin: 0;
+    padding: 0;
+}
+.campo-principal{
+    color: rgb(0, 0, 0);
+    border: solid 5px black;
+    border-radius: 20px;
+    margin: 5%;
+    background-color: rgb(255, 175, 0);
+}
+.boas-vindas{
+    padding: 10px;
+    margin: 5%;
+    border: solid 5px black;
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background-color: red;
+}
+h2{text-align: center;}
+.Btn{
+    display: grid;
+    justify-content:center;
+    margin-bottom: 20px;
+}
+button{
+    border: solid 5px black;
+    color:rgb(0, 0, 0);
+    background-color: red;
+    border-radius: 20px;
+    transition: all 0.5s;
+}
+button:hover{
+    background-color: rgb(255, 175, 0);
+    color:red;
+}
+.logo{
+    margin-top: 20px;
+    text-align: center;
+}
